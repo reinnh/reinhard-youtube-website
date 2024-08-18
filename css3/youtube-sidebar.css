@@ -1,0 +1,149 @@
+
+
+.side-bar{
+   
+    position:fixed;
+    left: 0px;
+    top: 50px;
+    bottom: 0;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    font-size: 14px;
+    font-family: arial;
+
+    
+}
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+.side-bar img{
+    width: 50px;
+    cursor: pointer;
+}
+.side-bar p{
+    cursor: pointer;
+} 
+.icon-name-paire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    text-wrap: nowrap;
+    width: 100%;
+    
+}
+.left-side{
+    display: flex;
+    column-gap: 5px;
+    margin-left:40px ;
+    min-width:200px;
+
+    
+}
+
+.hamburger-menu{
+    width: 40px;
+    
+}
+
+.youtube-logo{
+    width: 120px;
+}
+
+.middle-side{
+    display: flex;
+    align-items: center;
+    flex:1;
+    max-width: 500px;
+    
+}
+
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    
+}
+
+.right-side img{
+    width: 30px;
+    cursor: pointer;
+    
+}
+.notification-count-content{
+    position: relative;
+    display: flex;
+}
+
+.notification-count{
+    background-color: rgb(175, 2, 2);
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    cursor: pointer;
+}
+.search-bar{
+     height: 30px;  
+     font-size: 16px;
+     padding-left: 20px;
+     border-color: grey;
+     border-style: solid;
+     box-shadow: inset 1px 1px rgba(0, 0, 0,0.15) ;
+     flex:1;
+     width: 0;
+}
+.search-icon{
+    height: 30px;
+    cursor: pointer;
+
+}
+
+
+
+.search-icon-box{
+    height: 32px;
+    width: 60px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    margin-left: -2px;
+    align-items: center;
+    border-color: grey;
+     
+}
+.voice-search{
+    border-style: none;
+    border-width: 1px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(250, 245, 245);
+    cursor: pointer;
+}
+
+
+.my-channel-box{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
